@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "fcc0c4c5-622b-4189-a980-6e17d2eac430",
+		"name": "test Juan Diego Mora",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Obtener todas las vacantes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.0.10:8000/Vacante/",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"10"
+					],
+					"port": "8000",
+					"path": [
+						"Vacante",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar vacante",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"PositionName\": \"string\",\n  \"CompanyName\": \"string\",\n  \"Salary\": 0,\n  \"Currency\": \"string\",\n  \"VacancyId\": 0,\n  \"VacancyLink\": \"string\",\n  \"RequiredSkills\": \"string\",\n  \"YearsPreviousExperience\": 0,\n  \"InternalCode\": 0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.0.10:8000/Vacante/",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"10"
+					],
+					"port": "8000",
+					"path": [
+						"Vacante",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear vacante",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"PositionName\": \"string\",\n  \"CompanyName\": \"string\",\n  \"Salary\": 0,\n  \"Currency\": \"string\",\n  \"VacancyId\": 0,\n  \"VacancyLink\": \"string\",\n  \"RequiredSkills\": \"string\",\n  \"YearsPreviousExperience\": 0,\n  \"InternalCode\": 0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.0.10:8000/Vacante/",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"10"
+					],
+					"port": "8000",
+					"path": [
+						"Vacante",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener vacante por Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.0.10:8000/Vacante/7",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"10"
+					],
+					"port": "8000",
+					"path": [
+						"Vacante",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar vacante",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.0.10:8000/Vacante/232",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"10"
+					],
+					"port": "8000",
+					"path": [
+						"Vacante",
+						"232"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener todo los Usuarios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.0.10:8000/Usuario/",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"10"
+					],
+					"port": "8000",
+					"path": [
+						"Usuario",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Actualizar usuario",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"UserId\": 0,\n  \"FirstName\": \"string\",\n  \"LastName\": \"string\",\n  \"Currency\": \"string\",\n  \"Email\": \"string\",\n  \"YearsPreviousExperience\": 0,\n  \"Skills\": \"string\",\n  \"InternalCode\": 0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.0.10:8000/Usuario/",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"10"
+					],
+					"port": "8000",
+					"path": [
+						"Usuario",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Crear usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"UserId\": 0,\n  \"FirstName\": \"string\",\n  \"LastName\": \"string\",\n  \"Currency\": \"string\",\n  \"Email\": \"string\",\n  \"YearsPreviousExperience\": 0,\n  \"Skills\": \"string\",\n  \"InternalCode\": 0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://192.168.0.10:8000/Usuario/",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"0",
+						"10"
+					],
+					"port": "8000",
+					"path": [
+						"Usuario",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
